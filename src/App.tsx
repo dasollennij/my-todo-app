@@ -186,7 +186,7 @@ useEffect(() => {
                     onChange={() => toggleTodo(id)}
                     className="mr-2"
                   />
-                  <span className={completed ? 'line-through text-gray-400' : ''}>
+                  <span className={completed ? 'line-through text-gray-400' : ' text-gray-800'}>
                     {text}
                   </span>
                 </div>
